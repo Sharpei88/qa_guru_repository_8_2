@@ -5,6 +5,5 @@ from selene import browser
 def open_browser():
     browser.open("https://www.google.com/")
     browser.driver.set_window_size(1920, 800)
-
     yield
     browser.quit()
